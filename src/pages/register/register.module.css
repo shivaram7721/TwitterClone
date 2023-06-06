@@ -1,0 +1,134 @@
+.Regcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    height: 97vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(49, 48, 48);
+}
+
+.formReg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    gap: 1rem;
+    background-color: black;
+    padding: 2rem;
+    height: 80vh;
+    width: 30vw;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+
+.inputReg {
+    width: 20vw;
+    height: 6vh;
+    border-radius: 7px;
+    border: 1px solid grey;
+    padding-left: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.headReg {
+    color: white;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btnReg {
+    border: none;
+    width: 18.5rem;
+    height: 6vh;
+    border-radius: 20px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.btnReg:hover {
+  cursor: pointer;
+}
+
+.errMsg {
+    color: red;
+    font-size: .8rem;
+}
+
+.errReg {
+  font-size: 14px;
+  color: red;
+  /* margin: 5px 0; */
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    
+    .formReg {
+      width: 60vw;
+      height: 80vh;
+      /* margin: 10px 0; */
+    }
+    
+    .inputReg {
+      width: 100%;
+      padding: 10px;
+      /* margin: 10px 0; */
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .headReg {
+      font-size: 20px;
+      /* margin: 20px 0; */
+    }
+    
+    .errMsg {
+      font-size: 14px;
+      color: red;
+      /* margin: 5px 0; */
+    }
+    
+    .formContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .btnReg {
+      width: 40vw;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: none;
+      background-color: #f1f2f3;
+      color: rgb(12, 12, 12);
+      font-size: 16px;
+      cursor: pointer;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .buttonReg:hover {
+      background-color: #0c6eaa;
+    }
+    
+    .errReg {
+      font-size: 14px;
+      color: red;
+      /* margin: 5px 0; */
+      text-align: center;
+    }
+  }
+  

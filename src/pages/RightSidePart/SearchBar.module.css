@@ -1,0 +1,39 @@
+.mainDiv{
+    /* max-width: 27.5rem; */
+    /* max-width: 25.5rem; */
+    /* width: 23rem; */
+    /* border: none;
+    border-radius: 2rem;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    height: 6vh;
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin-bottom:0.5rem; */
+}
+
+.searchIcon {
+    color: grey;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    height: 7vh;
+    justify-content: center;
+    background-color: rgb(36, 35, 35);
+    border-radius: 25px;
+    gap: 1rem;
+    margin: .5rem 0 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.input {
+    background-color: rgb(36, 35, 35);
+    border: none;
+    width: 20vw;
+    font-size: 1rem;
+}

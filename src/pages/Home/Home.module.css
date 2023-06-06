@@ -1,0 +1,22 @@
+/* @media only screen and (min-width: 1024px) {
+    .rightPart{
+        margin-left: 70%;
+    }
+  }
+   */
+   
+  @media only screen and (max-width: 1023px) {
+    /* CSS rules for mobile devices go here */
+    .rightPart {
+      display: none;
+    }
+  }
+  
+.rightSideBar {
+  position: sticky;
+}
+
+.sideCards {
+  position: sticky;
+  top: -8rem;
+}

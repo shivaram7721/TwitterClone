@@ -1,0 +1,40 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.sidebarOption:hover {
+    background-color: rgb(114, 114, 114, .3);
+    border-radius: 30px;
+    color: white;
+    transition: color 100ms ease-out;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+    padding: 15px;
+}
+
+.sidebarOption > h2 {
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.sidebarOption--active {
+    color: white;
+}
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+    .sidebarOption > h2 {
+      display: none;
+    }
+  }
+
+
+  

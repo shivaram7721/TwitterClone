@@ -1,0 +1,93 @@
+.Logcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 48, 48);
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid;
+    padding: 3rem;
+    height: 80vh;
+}
+
+.formLog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.inputlog {
+    border: none;
+    width: 20rem;
+    height: 6vh;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+    border: 1px solid grey;
+}
+
+.btn {
+    width: 20rem;
+    height: 6vh;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btnd {
+    border: 1px solid grey;
+    width: 20rem;
+    height: 6vh;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.btnd:hover {
+    cursor: pointer;
+}
+
+.hr {
+    border: 1px solid grey;
+    width: 21rem;
+}
+
+.headSign {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.errMsg {
+    color: red;
+    font-size: .8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.noAcc {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.signup {
+    color: rgb(28, 69, 145);
+    cursor: pointer;
+}
+

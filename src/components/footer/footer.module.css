@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(29, 161, 242);
+    height: 10vh;
+    position: sticky;
+    bottom: 0;
+}
+
+.headFoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.head2 {
+    margin: 0;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.para {
+    margin: 0;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footBtnContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.footBtn1 {
+    background-color: rgb(29, 161, 242);
+    border: 1px solid white;
+    width: 5rem;
+    border-radius: 20px;
+    height: 6vh;
+    color: white;
+    font-weight: 900;
+}
+
+.footBtn2 {
+    background-color: white;
+    border: none;
+    width: 5rem;
+    border-radius: 20px;
+    height: 6vh;
+    font-weight: 900;
+}

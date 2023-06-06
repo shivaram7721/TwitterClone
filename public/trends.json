@@ -1,0 +1,17 @@
+[
+{"states_name":"Porto","country_name":"Portugal","tweet_counts":52},
+{"states_name":"Stockholm","country_name":"Sweden","tweet_counts":49},
+{"states_name":"Alberta","country_name":"Canada","tweet_counts":43},
+{"states_name":"Saskatchewan","country_name":"Canada","tweet_counts":25},
+{"states_name":"Hawaii","country_name":"United States","tweet_counts":60},
+{"states_name":"Region Hovedstaden","country_name":"Denmark","tweet_counts":64},
+{"states_name":"Ontario","country_name":"Canada","tweet_counts":97},
+{"states_name":"Ilha Terceira","country_name":"Portugal","tweet_counts":78},
+{"states_name":"Västra Götaland","country_name":"Sweden","tweet_counts":87},
+{"states_name":"Steiermark","country_name":"Austria","tweet_counts":85},
+{"states_name":"New South Wales","country_name":"Australia","tweet_counts":78},
+{"states_name":"Ilha de São Miguel","country_name":"Portugal","tweet_counts":33},
+{"states_name":"Aquitaine","country_name":"France","tweet_counts":92},
+{"states_name":"Champagne-Ardenne","country_name":"France","tweet_counts":40},
+{"states_name":"Bourgogne","country_name":"France","tweet_counts":46}
+]
